@@ -1,0 +1,16 @@
+[
+{
+  "modid": "jacksonstestmod",
+  "name": "Jackson's Test Mod",
+  "description": "I'm Learning Java",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Jmanmini"],
+  "credits": "N/A",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
