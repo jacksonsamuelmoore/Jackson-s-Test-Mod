@@ -1,5 +1,6 @@
 package com.au.jacksonmoore.jacksonstestmod;
 
+import com.au.jacksonmoore.jacksonstestmod.item.ModItems;
 import com.au.jacksonmoore.jacksonstestmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -34,9 +35,9 @@ public class JacksonsTestMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModItems.preInit();
         proxy.init(event);
-        // some example code
-        System.out.println("DIRT BLOCK >> "+Blocks.DIRT.getUnlocalizedName());
+
     }
 
     @EventHandler

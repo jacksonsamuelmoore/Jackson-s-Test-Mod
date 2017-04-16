@@ -1,4 +1,5 @@
 package com.au.jacksonmoore.jacksonstestmod.proxy;
+import com.au.jacksonmoore.jacksonstestmod.item.ModItems;
 import com.au.jacksonmoore.jacksonstestmod.proxy.CommonProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,7 +17,7 @@ public class ClientProxy extends CommonProxy {
 
     @Override
     public void init(FMLInitializationEvent event) {
-
+        ModItems.registerRenders();
     }
 
     @Override
